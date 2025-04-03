@@ -236,7 +236,7 @@ section{
 }
 .section4 ul li{
     padding: 25px 20px;
-    font-size: 22.5px;
+    font-size: 20px;
     border: 2px solid aqua;
     border-radius: 20px;
     margin: 20px;
@@ -250,7 +250,7 @@ section{
 
 }
 .section4 .list .fa-star,.section4 .list .fa-star-o{
-    font-size: 18px;
+    font-size: 15px;
 }
 .section4 h1{
     font-size: 37px;
@@ -259,8 +259,8 @@ section{
     text-transform: uppercase;
 }
 .section4 .list img{
-    width: 27px;
-    height: 27px;
+    width: 22px;
+    height: 22px;
     padding: 0 10px;
 }
 .section4 .list #it{
@@ -278,19 +278,18 @@ section{
     padding-bottom: 30px;
 }
 .section5 .project img{
-    /* border: 2px solid aqua; */
+    border: 2px solid black; 
     width: 262px;
     height: 187px;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     margin: 40px 0;
-    box-shadow: 0 0 30px 15px rgba(0, 255, 255, 0.463);
+    box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.296);
     border-radius: 20px;
     transition:  transform 0.5s ease-in-out;
 }
 .section5 .project img:hover{
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 .section5 .projects{
     grid-column: 1/span 3;
@@ -307,7 +306,6 @@ section{
 .section6 .input{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     
 
